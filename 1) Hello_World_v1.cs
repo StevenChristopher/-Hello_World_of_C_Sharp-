@@ -3,7 +3,7 @@
              novice programmers, like myself, to a new programming language.             
    AUTHOR:   The collective universe of programmers as we know it.
    FILENAME: Hello_World_v1.cs
-   PURPOSE:  Demonstrate the most basic architecture for a C# program.
+   PURPOSE:  Demonstrate the most basic framework and components for a C# program.
    STUDENT:  Steven Christopher
    DATE:     JAN 25 2019
 */
@@ -11,7 +11,7 @@
 // STYLE MODIFICATIONS: None.
 // FUNCTIONAL MODIFICATIONS: None.
 
-// This line of code simply opens access to libraries and such.
+// These lines of code simply open access to libraries and such.
 // It is automatically generated when you begin development of a new
 // application/program in MS Visual Studio.
 using System;
