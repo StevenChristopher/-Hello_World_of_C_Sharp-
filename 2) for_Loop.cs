@@ -25,8 +25,8 @@ namespace for_Loop
             Console.WriteLine("\n\nDisplay of variable value after each loop iteration:\n");
 			
             // for loops are used to iterate through process a known number of times.
-			// variables i, j, and k are normally used a lopp control variables.
-			// the for loop variable must be declared, initialized and incremented.
+            // Variables i, j, and k are normally used a lopp control variables.
+	    // The for loop variable must be declared, initialized and incremented.
             for (int i = 0; i < 10; i++)
             {
                 Console.Write(i + " ");                
