@@ -27,7 +27,8 @@ namespace Hello_World_v1
     class Program
     {
         // The Main() method container. Every C# program requires a Main() method.
-        // It is the point of entry.
+        // It is the point of entry. The Main() method will call other functions or methods()
+        // into use.
         static void Main(string[] args)
         {
             // Basic instructions for displaying output and reading input from the console.
