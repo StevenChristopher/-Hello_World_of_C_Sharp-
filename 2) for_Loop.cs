@@ -2,13 +2,16 @@
    AUTHOR:   
    FILENAME: for_Loop.cs
    PURPOSE:  Demonstrate the basic functionality of the for loop control structure.
-             This is a very simplistic look at how the for loop is used to step through.
    STUDENT:  Steven Christopher
    DATE:     JAN 25 2019
 */
 
-// STYLE MODIFICATIONS: None.
-// FUNCTIONAL MODIFICATIONS: None.
+// STYLE MODIFICATIONS:
+// o Added console display message prior to displaying i variable values.
+// o Changed i variable values to be displayed in the color blue.
+
+// FUNCTIONAL MODIFICATIONS:
+// o 
 
 using System;
 using System.Collections.Generic;
@@ -22,13 +25,14 @@ namespace for_Loop
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\n\nDisplay of variable value after each loop iteration:\n");
+            Console.Write("\n\nVariable 'i' value after each loop iteration:");
 			
-            // for loops are used to iterate through process a known number of times.
-            // Variables i, j, and k are normally used a lopp control variables.
-	    // The for loop variable must be declared, initialized and incremented.
+            // for loops are used to step through a process over a known number of iterations.
+            // Variables i, j, and k are normally used as 'loop control variables'.
+	    // The for loop variable must be initialized and incremented.
             for (int i = 0; i < 10; i++)
             {
+		    Console.ForgroundColor = ConsoleColor.
                 Console.Write(i + " ");                
             }
 
