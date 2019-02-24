@@ -1,11 +1,11 @@
-/* SOURCE:                
-   AUTHOR:   
+/* SOURCE:   Self-created.             
+   AUTHOR:   Steven Christopher
    FILENAME: Input_and_Output.cs
    PURPOSE:  Demonstrate various methods() of the Console class, as well as,
              utilization of the ConsoleKeyInfo constructor. Also, this program
              uses an if statement control structure at the end.
    STUDENT:  Steven Christopher
-   DATE:     JAN 25 2019
+   DATE:     JAN 28 2019
 */
 
 // STYLE MODIFICATIONS: None.
@@ -106,6 +106,7 @@ namespace Input_and_Output
                 Console.Write("Goodbye, " + userName + "." + " --Press any key to Exit--");
                 Console.ReadKey();
             }          
-        }
+        }   // TODO Modify this last section of code to account for an event where the user selects somethingg
+            // other than 'y' or 'n'.
     }
 }
