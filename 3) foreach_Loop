@@ -1,6 +1,6 @@
 /* SOURCE:   https://www.dotnetperls.com/foreach
    AUTHOR:   UNKNOWN
-   FILENAME: while_Loop.cs
+   FILENAME: foreach_Loop.cs
    PURPOSE:  Demonstrate the basic functionality of the foreach loop control structure.
    STUDENT:  Steven Christopher
    DATE:     JAN 25 2019
