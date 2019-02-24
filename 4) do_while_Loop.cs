@@ -1,13 +1,19 @@
 /* SOURCE:   https://www.dotnetperls.com/do         
    AUTHOR:   UNKNOWN
-   FILENAME: Input_and_Output_v2.cs
+   FILENAME: do_while_Loop.cs
    PURPOSE:  Demonstrate the use of a do-while loop control structure.
    STUDENT:  Steven Christopher
    DATE:     JAN 27 2019
 */
 
-// STYLE MODIFICATIONS: None.
-// FUNCTIONAL MODIFICATIONS: None.
+// STYLE MODIFICATIONS:
+// o Added console display description of what the results represent.
+// o Used the array from the Array_Sort.cs program.
+// o Different array name.
+
+// FUNCTIONAL MODIFICATIONS:
+// o Used a different number of indices.
+// o Added prompt for program exit.
 
 using System;
 using System.Collections.Generic;
@@ -29,6 +35,8 @@ namespace do_while_Loop
             int i = 0;
 
             // This loop will add each index value with the next in the integer array.
+            // do-while loops are normally used when you know you have to iterate through
+            // the loop at least once. (e.g. a User Selection interface)
             do
             {
                 sum += sortedArray[i];
