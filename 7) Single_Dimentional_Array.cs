@@ -7,8 +7,13 @@
    DATE:     JAN 29 2019
 */
 
-// STYLE MODIFICATIONS: None.
-// FUNCTIONAL MODIFICATIONS: None.
+// STYLE MODIFICATIONS:
+// o Unique dialogue for program.
+
+// FUNCTIONAL MODIFICATIONS: 
+// o Added a for loop to step through indices.
+// o Displayed index count of given array.
+// o Provided my own array values.
 
 using System;
 using System.Collections.Generic;
