@@ -1,4 +1,3 @@
-
 /* SOURCE:   https://social.msdn.microsoft.com/Forums/en-US/7e20a14b-98d9-4737-a588-18971098d13b/
              magic-8-ball-random-string-generator?forum=csharpgeneral             
    AUTHOR:   Christopher84
