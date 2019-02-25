@@ -30,6 +30,7 @@ namespace Binary_Triangle
 
             // Parse user input into an integer.
             input = int.Parse(Console.ReadLine());
+            Console.ForegroundColor = ConsoleColor.Cyan;
 
             // Condition is met if user enters 1 or greater.
             for (int i = 1; i <= input; i++)
