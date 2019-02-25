@@ -1,12 +1,10 @@
-/* SOURCE:                
-   AUTHOR:   
-   FILENAME: Input_and_Output_v2.cs
-   PURPOSE:  Demonstrate the StringBuilder class which provides many useful methods for
-             representing a mutable string of characters. StringBuilder seems to be much
-             more intuitive in certain cases compared to the Console class. Nonetheless,
-             both have their place.
+/* SOURCE:   Fundamentals Of Computer Programming with C Sharp             
+   AUTHOR:   Svetlin Nakov, Veselin Kolev & Co.
+   FILENAME: Single_Dimentional_Array.cs
+   PURPOSE:  Demonstrate the declaration and initialization syntax for
+             a single-dimentional array.
    STUDENT:  Steven Christopher
-   DATE:     JAN 25 2019
+   DATE:     JAN 29 2019
 */
 
 // STYLE MODIFICATIONS: None.
