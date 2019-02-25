@@ -1,18 +1,22 @@
-/* SOURCE:                
-   AUTHOR:   
-   FILENAME: Input_and_Output_v2.cs
-   PURPOSE:  Demonstrate the StringBuilder class which provides many useful methods for
-             representing a mutable string of characters. StringBuilder seems to be much
-             more intuitive in certain cases compared to the Console class. Nonetheless,
-             both have their place.
+/* SOURCE:   https://www.c-sharpcorner.com/forums/how-to-remove-duplicate-number-in-array             
+   AUTHOR:   Surendra Kandira
+   FILENAME: Removing_Array_Duplicates.cs
+   PURPOSE:  Demonstrate the Distinct() method and the ToArray() method
+             in removing duplicates from an array quickly.
    STUDENT:  Steven Christopher
-   DATE:     JAN 25 2019
+   DATE:     JAN 29 2019
 */
 
-// STYLE MODIFICATIONS: None.
-// FUNCTIONAL MODIFICATIONS: None.
+// STYLE MODIFICATIONS: 
+// o Added console display dialogue results.
+// o Added exit program prompt.
 
-uusing System;
+// FUNCTIONAL MODIFICATIONS:
+// o Used array from previous Array_Sort.cs program.
+// o Added program exit.
+// o Displayed results of the duplicate-free and sorted array.
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,6 +30,8 @@ namespace Removing_Array_Duplicates
         {
             int[] numArray = new int[] {68, 88, 233, 25, 38, 146, 121, 220, 177, 177};
 
+            // Create another integer array and use Distinct() method to remove duplicates.
+            // The ToArray() method creates numArray2 without duplicates.
             int[] numArray2 = numArray.Distinct().ToArray();
 
             Array.Sort(numArray2);            
@@ -35,7 +41,6 @@ namespace Removing_Array_Duplicates
             foreach (int i in numArray2) Console.Write(i + " ");
             Console.WriteLine("\n\n<Press Any Key to Exit>");
             Console.ReadKey(true);
-
         }
     }
 }
