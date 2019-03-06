@@ -1,11 +1,11 @@
 /* SOURCE:   Brian Kernighan is given credit for being the first to use the "Hello, World" program template
              as part of the documentation for the BCPL programming language. It is now a standard for introducing
              novice programmers, like myself, to a new programming language.             
-   AUTHOR:   The collective universe of programmers as we know it.
-   FILENAME: Hello_World_v1.cs
-   PURPOSE:  Demonstrate the most basic framework and components for a C# program.
-   STUDENT:  Steven Christopher
-   DATE:     JAN 25 2019
+ * AUTHOR:   The collective universe of programmers as we know it.
+ * FILENAME: Hello_World_v1.cs
+ * PURPOSE:  Demonstrate the most basic framework and components for a C# program.
+ * STUDENT:  Steven Christopher
+ * DATE:     JAN 25 2019
 */
 
 // STYLE MODIFICATIONS:
