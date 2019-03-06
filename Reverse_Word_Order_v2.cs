@@ -1,16 +1,16 @@
 /* SOURCE:   https://www.c-sharpcorner.com/UploadFile/c63ec5/reverse-string-in-C-Sharp/             
-   AUTHOR:   Sharad Gupta
-   FILENAME: Reverse_Word_Order_v2.cs
-   PURPOSE:  Demonstrate an alternate way of reversing a sentence that
+ * AUTHOR:   Sharad Gupta
+ * FILENAME: Reverse_Word_Order_v2.cs
+ * PURPOSE:  Demonstrate an alternate way of reversing a sentence that
              is entered by a user. In the previous Reverse_Word_Order.cs
              program, Array.Reverse() method was used. In this version,
              loop control variables and a for loop are used.
-   STUDENT:  Steven Christopher
-   DATE:     JAN 31 2019
+ * STUDENT:  Steven Christopher
+ * DATE:     FEB 06 2019
 */
 
 // STYLE MODIFICATIONS:
-// o Unique console display dialogue
+// 1) Unique console display dialogue.
 
 // FUNCTIONAL MODIFICATIONS: None.
 
@@ -24,6 +24,8 @@ namespace Reverse_Word_Order_v2
 {
     class Program
     {
+        // This program represents an alternate way of reversing a string array.
+        // for loops and loop control variables are relied upon for this approach.
         static void Main(string[] args)
         {
             int temp;
