@@ -1,15 +1,16 @@
 /* SOURCE:   https://www.sanfoundry.com/csahrp-program-binarytriangle/           
-   AUTHOR:   UNKNOWN
-   FILENAME: Binary_Triangle.cs
-   PURPOSE:  This program takes user input and parses it into an integer. That
+ * AUTHOR:   
+ * FILENAME: Binary_Triangle.cs
+ * PURPOSE:  This program takes user input and parses it into an integer. That
              integer value is ran through for loops in order to print a tri-
              angle consisting of ones and zeroes.
-   STUDENT:  Steven Christopher
-   DATE:     FEB 07 2019
+ * STUDENT:  Steven Christopher
+ * DATE:     FEB 01 2019
 */
 
 // STYLE MODIFICATIONS:
-// o Unique dialogue prompt to the console display.
+// 1) Console display messages are unique.
+// 2) Changed binary triangle to cyan color.
 
 // FUNCTIONAL MODIFICATIONS: None.
 
@@ -50,9 +51,8 @@ namespace Binary_Triangle
                     }
                 }
                 // Return to the next line and to the top of the for loop.
-                Console.Write("\n");
+                Console.Write("\n");           
             }
-            // Program exit.
             Console.ReadLine();
         }
     }
