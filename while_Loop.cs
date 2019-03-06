@@ -30,7 +30,7 @@ namespace while_Loop
             // Counter was set to 11 in order to include 10 in our countdown.
             int counter = 11;
 
-            Console.WriteLine("\n\nPrepare for lift off in:\n\n");
+            Console.WriteLine("\nPrepare for lift off in:\n\n");
 
             while (counter != 0)
             {
