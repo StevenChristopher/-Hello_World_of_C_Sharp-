@@ -106,7 +106,7 @@ namespace Input_and_Output
                 Console.Write("Goodbye, " + userName + "." + " --Press any key to Exit--");
                 Console.ReadKey();
             }          
-        }   // TODO Modify this last section of code to account for an event where the user selects somethingg
+        }   // TODO Modify this last section of code to display a message if the user selects something
             // other than 'y' or 'n'.
     }
 }
