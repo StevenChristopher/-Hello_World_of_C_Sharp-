@@ -1,23 +1,25 @@
 /* SOURCE:   https://www.sanfoundry.com/csharp-programs-generate-sum-digits/           
-   AUTHOR:   UNKNOWN
-   FILENAME: Number_4.cs
-   PURPOSE:  Demonstrate a program designed to accept user input as a number between
-             1 and 10. The input is parsed into and integer
-   STUDENT:  Steven Christopher
-   DATE:     JAN 29 2019
+ * AUTHOR:   
+ * FILENAME: Number_4.cs
+ * PURPOSE:  Demonstrate a program designed to accept user input as a number between
+             1 and 10. The input is parsed into and integer and basic mathematical operations
+             are performed. These mathematical operations represent the arithmetic behind
+             the Input_and_Output.cs program. The result is ALWAYS the number 4!
+ * STUDENT:  Steven Christopher
+ * DATE:     FEB 04 2019
 */
 
 // STYLE MODIFICATIONS: 
-// o Console display message is unique.
-// o Exit prompt message unique.
-// o Dialogue spacing changed.
+// 1) Console display messages are unique.
+// 2) Exit prompt message unique.
+// 3) Dialogue spacing adjusted.
 
 // FUNCTIONAL MODIFICATIONS:
-// o Changed variable names for ease of reading.
-// o Alternate exit prompt and program exit.
-// o Alternate user input request.
-// o Additional mathematically operations in while loop.
-// o Additional mathematical operation after Parse.
+// 1) Changed variable names for ease of reading.
+// 2) Alternate exit prompt and program exit.
+// 3) Alternate user input request.
+// 4) Additional mathematically operations in while loop.
+// 5) Additional mathematical operation after Parse.
 
 using System;
 using System.Collections.Generic;
