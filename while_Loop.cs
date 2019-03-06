@@ -1,19 +1,19 @@
 /* SOURCE:   Fundamentals of Computer Programming with C Sharp(pp.212)
-   AUTHOR:   Svetlin Nakov, Veselin Kolev & Co.
-   FILENAME: while_Loop.cs
-   PURPOSE:  Demonstrate the basic functionality of the while loop control structure.
-   STUDENT:  Steven Christopher
-   DATE:     JAN 25 2019
+ * AUTHOR:   Svetlin Nakov, Veselin Kolev & Co.
+ * FILENAME: while_Loop.cs
+ * PURPOSE:  Demonstrate the basic functionality of the while loop control structure.
+ * STUDENT:  Steven Christopher
+ * DATE:     JAN 25 2019
 */
 
 // STYLE MODIFICATIONS:
-// o Added console display message prior to displaying counter variable values.
-// o Changed counter variable values to be displayed in the color red.
-// o Displayed counter values as a cheesy rocketship countdown.
+// 1) Added console display message prior to displaying counter variable values.
+// 2) Changed counter variable values to be displayed in the color red.
+// 3) Displayed counter values as a cheesy rocketship countdown.
 
 // FUNCTIONAL MODIFICATIONS:
-// o Added an exit prompt to program.
-// o Added a decrement to the counter variable.
+// 1) Added an exit prompt to program.
+// 2) Added a decrement to the counter variable.
 
 using System;
 using System.Collections.Generic;
