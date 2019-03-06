@@ -1,20 +1,20 @@
 /* SOURCE:   https://www.c-sharpcorner.com/forums/how-to-remove-duplicate-number-in-array             
-   AUTHOR:   Surendra Kandira
-   FILENAME: Removing_Array_Duplicates.cs
-   PURPOSE:  Demonstrate the Distinct() method and the ToArray() method
-             in removing duplicates from an array quickly.
-   STUDENT:  Steven Christopher
-   DATE:     JAN 29 2019
+ * AUTHOR:   Surendra Kandira
+ * FILENAME: Removing_Array_Duplicates.cs
+ * PURPOSE:  Demonstrate the Distinct() and ToArray() methods for handling array
+             duplicates and creating a new array without duplicates.             
+ * STUDENT:  Steven Christopher
+ * DATE:     FEB 05 2019
 */
 
 // STYLE MODIFICATIONS: 
-// o Added console display dialogue results.
-// o Added exit program prompt.
+// 1) Added console display dialogue results.
+// 2) Console dialogue is unique.
 
 // FUNCTIONAL MODIFICATIONS:
-// o Used array from previous Array_Sort.cs program.
-// o Added program exit.
-// o Displayed results of the duplicate-free and sorted array.
+// 1) Used array from previous Array_Sort.cs program.
+// 2) Added program exit.
+// 3) Displayed results of the duplicate-free and sorted array.
 
 using System;
 using System.Collections.Generic;
