@@ -1,23 +1,22 @@
 /* SOURCE:   https://www.geeksforgeeks.org/count-occurences-of-a-word-in-string            
-   AUTHOR:   ChitraNayal
-   FILENAME: Specific_Word_Count.cs
-   PURPOSE:  Program that evaluates a sentence that is typed in by the user
+ * AUTHOR:   ChitraNayal
+ * FILENAME: Specific_Word_Count.cs
+ * PURPOSE:  Program that evaluates a sentence that is typed in by the user
              against a specific word. The occurences of that word are counted
 			 and then displayed in the console.
-   STUDENT:  Steven Christopher
-   DATE:     FEB 03 2019
+ * STUDENT:  Steven Christopher
+ * DATE:     FEB 03 2019
 */
 
 // STYLE MODIFICATIONS:
-// o Changed variable names to be more intuitive throughout program.
-// o Unique console display dialogue.
-// o Unique console propts.
+// 1) Changed variable names to be more intuitive throughout program.
+// 2) Unique console display dialogue.
+// 3) Unique console prompts.
 
 // FUNCTIONAL MODIFICATIONS:
-// o Modified the sentence that is evaluated.
-// o Modified search word.
-// o Added an program ending prompt.
-// o Discovered a future TODO
+// 1) Modified the sentence that is evaluated.
+// 2) Modified search word.
+// 3) Added an program exit.
 
 using System;
 using System.Collections.Generic;
@@ -39,7 +38,7 @@ namespace Specific_Word_Count
 
             for (int i = 0; i < sentence.Length; i++)
             {
-                // if match found increase count 
+                // if match found increment counter 
                 if (word.Equals(sentence[i]))
                     count++;
             }
@@ -57,7 +56,6 @@ namespace Specific_Word_Count
                 Console.WriteLine("\nNumber of Occurences: " + countOccurences(str, word));
                 Console.Write("\nPress Any Key to Exit");
                 Console.ReadLine();                
-            } 
-        
+            }        
     }
 }
