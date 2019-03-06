@@ -1,19 +1,20 @@
 /* SOURCE:   https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=netframework-4.7.2             
-   AUTHOR:   UNKNOWN
-   FILENAME: Input_and_Output_v2.cs
-   PURPOSE:  Demonstrate the StringBuilder class which provides many useful methods for
+ * AUTHOR:   
+ * FILENAME: Input_and_Output_v2.cs
+ * PURPOSE:  Demonstrate the StringBuilder class which provides many useful methods for
              representing a mutable string of characters. StringBuilder seems to be much
              more intuitive in certain cases compared to the Console class. Nonetheless,
              both have their place.
-   STUDENT:  Steven Christopher
-   DATE:     JAN 28 2019
+ * STUDENT:  Steven Christopher
+ * DATE:     JAN 28 2019
 */
 
 // STYLE MODIFICATIONS: 
-// o Used a section from previous Input_and_Output.cs program.
+// 1) Used a section from previous Input_and_Output.cs program as the output to
+//    be displayed.
 
 // FUNCTIONAL MODIFICATIONS:
-// o Prompt to exit program.
+// 1) Prompt to exit program.
 
 using System;
 using System.Collections.Generic;
