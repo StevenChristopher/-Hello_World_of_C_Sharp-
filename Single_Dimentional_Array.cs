@@ -1,19 +1,19 @@
-/* SOURCE:   Fundamentals Of Computer Programming with C Sharp             
-   AUTHOR:   Svetlin Nakov, Veselin Kolev & Co.
-   FILENAME: Single_Dimentional_Array.cs
-   PURPOSE:  Demonstrate the declaration and initialization syntax for
+/* SOURCE:   Fundamentals Of Computer Programming with C Sharp(pp.)             
+ * AUTHOR:   Svetlin Nakov, Veselin Kolev & Co.
+ * FILENAME: Single_Dimentional_Array.cs
+ * PURPOSE:  Demonstrate the declaration and initialization syntax for
              a single-dimentional array.
-   STUDENT:  Steven Christopher
-   DATE:     JAN 29 2019
+ * STUDENT:  Steven Christopher
+ * DATE:     FEB 04 2019
 */
 
 // STYLE MODIFICATIONS:
-// o Unique dialogue for program.
+// 1) Console display messages are unique.
 
 // FUNCTIONAL MODIFICATIONS: 
-// o Added a for loop to step through indices.
-// o Displayed index count of given array.
-// o Provided my own array values.
+// 1) Added a for loop to step through indices.
+// 2) Displayed index count of given array.
+// 3) Provided my own array values.
 
 using System;
 using System.Collections.Generic;
@@ -35,7 +35,7 @@ namespace Single_Dimensional_Array
             int n = 0;
 
             // Step through the array with a for loop. The array.Length comparison
-            // allows us to determine the length of the array if we didn't know.
+            // allows us to determine the length of the array if we didn't know already.
             for (int i = 0; i < numArray.Length; i++)
             {
                 n++;
