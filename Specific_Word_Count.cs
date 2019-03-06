@@ -3,9 +3,9 @@
  * FILENAME: Specific_Word_Count.cs
  * PURPOSE:  Program that evaluates a sentence that is typed in by the user
              against a specific word. The occurences of that word are counted
-			 and then displayed in the console.
+             and then displayed in the console.
  * STUDENT:  Steven Christopher
- * DATE:     FEB 03 2019
+ * DATE:     FEB 07 2019
 */
 
 // STYLE MODIFICATIONS:
