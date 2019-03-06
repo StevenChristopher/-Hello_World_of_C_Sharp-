@@ -1,9 +1,9 @@
 /* SOURCE:   Fundamentals of Computer Programming with C Sharp
-   AUTHOR:   Svetlin Nakov, Veselin Kolev & Co.
-   FILENAME: for_Loop.cs
-   PURPOSE:  Demonstrate the basic functionality of the for loop control structure.
-   STUDENT:  Steven Christopher
-   DATE:     JAN 25 2019
+ * AUTHOR:   Svetlin Nakov, Veselin Kolev & Co.
+ * FILENAME: for_Loop.cs
+ * PURPOSE:  Demonstrate the basic functionality of the for loop control structure.
+ * STUDENT:  Steven Christopher
+ * DATE:     JAN 25 2019
 */
 
 // STYLE MODIFICATIONS:
