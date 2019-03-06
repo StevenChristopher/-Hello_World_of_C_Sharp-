@@ -7,11 +7,11 @@
 */
 
 // STYLE MODIFICATIONS:
-// o Added console display message prior to displaying i variable values.
-// o Changed i variable values to be displayed in the color green.
+// 1) Added console display message prior to displaying i variable values.
+// 2) Changed i variable values to be displayed in the color green.
 
 // FUNCTIONAL MODIFICATIONS:
-// o Added an exit prompt to program.
+// 1) Added an exit prompt to program.
 
 using System;
 using System.Collections.Generic;
@@ -29,7 +29,6 @@ namespace ConsoleApp1
 
             // for loops are used to step through a process over a known number of iterations.
             // Variables i, j, and k are normally used as 'loop control variables'.
-            // The for loop variable must be initialized and incremented.
             for (int i = 1; i <= 10; i++)
             {
                 Console.ForegroundColor = ConsoleColor.Green;
