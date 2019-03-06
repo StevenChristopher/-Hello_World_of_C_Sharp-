@@ -1,19 +1,19 @@
 /* SOURCE:   https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/while             
-   AUTHOR:   MS
-   FILENAME: Hello_While_Loop.cs
-   PURPOSE:  Demonstrate the use of a while loop control structure within the
+ * AUTHOR:   MS
+ * FILENAME: Hello_While_Loop.cs
+ * PURPOSE:  Demonstrate the use of a while loop control structure within the
              'Hello, World' program.
-   STUDENT:  Steven Christopher
-   DATE:     JAN 25 2019
+ * STUDENT:  Steven Christopher
+ * DATE:     JAN 25 2019
 */
 
 // STYLE MODIFICATIONS: 
-// o Added another program exit prompt in the case the user doesn't select Enter key.
-// o Additional message is displayed in red.
+// 1) Added another program exit prompt in the case the user doesn't select Enter key.
+// 2) Additional message is displayed in red.
 
 // FUNCTIONAL MODIFICATIONS:
-// o Used ReadKey() to determine if the user selected desired input.
-// o Alternative interaction added in the case of incorrect user input.
+// 1) Used ReadKey() to determine if the user selected desired input.
+// 2) Alternative interaction added in the case of incorrect user input.
 
 using System;
 using System.Collections.Generic;
