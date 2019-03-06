@@ -1,22 +1,20 @@
 /* SOURCE:   https://docs.microsoft.com/en-us/dotnet/api/system.random?view=netframework-4.7.2             
-   AUTHOR:   MS
-   FILENAME: Random_Number_Generator.cs
-   PURPOSE:  Demonstrate a program designed to randomly generate a number using
-             the Random() method. It will do this three times to show that the number
-             range is between 1 and 10.
-   STUDENT:  Steven Christopher
-   DATE:     JAN 28 2019
+ * AUTHOR:   
+ * FILENAME: Random_Number_Generator.cs
+ * PURPOSE:  Demonstrate a program designed to randomly generate a number using
+             the Random() method.
+ * STUDENT:  Steven Christopher
+ * DATE:     JAN 31 2019
 */
 
 // STYLE MODIFICATIONS: 
-// o Console display message is unique.
-// o Exit prompt message.
-// o I chose 1 through 10 as the range so that I can
-//   demonstrate the mathematical logic in previous Input_and_Output.cs program.
+// 1) Console display messages are unique.
+// 2) Used 'ii' as a control structure variable.
 
 // FUNCTIONAL MODIFICATIONS:
-// o Iterated through only 3 times.
-// o Exit prompt and program exit.
+// 1) Iterated through only 3 times.
+// 2) Program Exit prompt.
+// 3) Changed range to 1 through 10.
 
 using System;
 using System.Collections.Generic;
