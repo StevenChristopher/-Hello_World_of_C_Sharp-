@@ -1,11 +1,11 @@
 /* SOURCE:   Self-created.             
-   AUTHOR:   Steven Christopher
-   FILENAME: Input_and_Output.cs
-   PURPOSE:  Demonstrate various methods() of the Console class, as well as,
+ * AUTHOR:   Steven Christopher
+ * FILENAME: Input_and_Output.cs
+ * PURPOSE:  Demonstrate various methods() of the Console class, as well as,
              utilization of the ConsoleKeyInfo constructor. Also, this program
              uses an if statement control structure at the end.
-   STUDENT:  Steven Christopher
-   DATE:     JAN 28 2019
+ * STUDENT:  Steven Christopher
+ * DATE:     JAN 28 2019
 */
 
 // STYLE MODIFICATIONS: None.
