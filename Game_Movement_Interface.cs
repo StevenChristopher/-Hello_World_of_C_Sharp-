@@ -1,4 +1,19 @@
-https://www.dreamincode.net/forums/topic/215620-a-basic-c%23-console-game-movement-engine/
+/* SOURCE:   https://www.dreamincode.net/forums/topic/215620-a-basic-c%23-console-game-movement-engine/
+ * AUTHOR:   
+ * PURPOSE:  After locating this engine for basic movement in a console game application, I went
+             through the program and made minor, aesthetic changes. This is an ongoing interest
+             that I intend to develop further as time and life permit.
+ * FILENAME: Hero_Interface.cs
+ * STUDENT:  Steven Christopher
+ * DATE:     FEB 09 2019
+*/
+
+// STYLE MODIFICATIONS:
+// 1) Changed the background color.
+// 2) Changed the hero color.
+
+// FUNCTIONAL MODIFICATIONS: None.
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +24,8 @@ namespace Hero_Interface
 {
     class Program
     {
-        const ConsoleColor HERO_COLOR = ConsoleColor.DarkBlue;
-        const ConsoleColor BACKGROUND_COLOR = ConsoleColor.Green;
+        const ConsoleColor HERO_COLOR = ConsoleColor.Red;
+        const ConsoleColor BACKGROUND_COLOR = ConsoleColor.Yellow;
 
         public static Coordinate Hero { get; set; } //Will represent our here that's moving around :P/>
  
