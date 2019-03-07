@@ -1,3 +1,23 @@
+/* SOURCE:   https://www.sanfoundry.com/csharp-programs-gaming-hangman/            
+ * AUTHOR:   
+ * FILENAME: Hangman.cs
+ * PURPOSE:  Another sanfoundry game that I found. I modified this traditional game
+             quite a bit from the original version I grabbed. 
+ * STUDENT:  Steven Christopher
+ * DATE:     MAR 05 2019
+*/
+
+// STYLE MODIFICATIONS:
+// 1) Unique console display prompts and messaging.
+// 2) Added a 'Guidelines' section to the console display.
+// 3) Made the words SpongeBob SquarePants themed.
+
+// FUNCTIONAL MODIFICATIONS:
+// 1) Added 10 more indexes to the word list.
+// 2) Increased guess limit to 20.
+// 3) Created alternate endings for successful completion or
+//    failing to succeed in allocated guesses.
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -80,7 +100,7 @@ namespace Hangman
                 // TODO Periodically clear the screen so display isn't too busy
                 Console.WriteLine(guess);
 
-                if (guess.Contains('*') && totalGuesses < 10)
+                if (guess.Contains('*') && totalGuesses < 20)
                     {
                         Console.WriteLine("Keep trying...");
                     }
@@ -96,8 +116,7 @@ namespace Hangman
                                   "...the platform drops and it all goes black...\n\n");
                     Console.Write("\n<<Press Any Key to Exit>>");
                     Console.ReadLine();
-                }
-                
+                }                
             } 
         }
     }
