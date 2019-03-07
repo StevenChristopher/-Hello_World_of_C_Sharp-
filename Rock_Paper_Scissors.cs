@@ -1,23 +1,15 @@
-/* SOURCE:   https://www.geeksforgeeks.org/count-occurences-of-a-word-in-string            
-   AUTHOR:   ChitraNayal
-   FILENAME: Specific_Word_Count.cs
-   PURPOSE:  Program that evaluates a sentence that is typed in by the user
-             against a specific word. The occurences of that word are counted
-			 and then displayed in the console.
-   STUDENT:  Steven Christopher
-   DATE:     FEB 03 2019
+/* SOURCE:   
+ * AUTHOR:   
+ * PURPOSE:  While it is true that computers don't have hands, they can still
+             defeat you in a game of rock, paper, scissors!
+ * FILENAME: Rock_Paper_Scissors_Game.cs
+ * STUDENT:  Steven Christopher
+ * DATE:     FEB 09 2019
 */
 
-// STYLE MODIFICATIONS:
-// o Changed variable names to be more intuitive throughout program.
-// o Unique console display dialogue.
-// o Unique console propts.
+// STYLE MODIFICATIONS: None.
 
-// FUNCTIONAL MODIFICATIONS:
-// o Modified the sentence that is evaluated.
-// o Modified search word.
-// o Added an program ending prompt.
-// o Discovered a future TODO
+// FUNCTIONAL MODIFICATIONS: None.
 
 using System;
 using System.Collections.Generic;
@@ -31,6 +23,8 @@ namespace Rock_Paper_Scissors_Game
     {
         static void Main(string[] args)
         {
+            // Variable declarations. A decent amount compared to other basic
+	    // programs I've coded thus far.
             string inputPlayer, inputCPU;
             int randomInt;
             int scorePlayer = 0;
@@ -46,7 +40,9 @@ namespace Rock_Paper_Scissors_Game
                 Random rnd = new Random();
 
                 randomInt = rnd.Next(1, 4);
-
+		    
+                // I decided to use a switch-case here to evaluate against
+		// our possible outcomes.
                 switch (randomInt)
                 {
                     case 1:
@@ -121,8 +117,6 @@ namespace Rock_Paper_Scissors_Game
                     Console.ReadLine();
                     return;
                 }
-
-
             }
         }
     }
