@@ -1,15 +1,15 @@
 /* SOURCE:   https://www.dotnetperls.com/ienumerable           
  * AUTHOR:   
  * FILENAME: IEnumerable_Example
- * PURPOSE:  
+ * PURPOSE:  Demonstrate some of the basic functionality of IEnumerable and
+             showcase some simplistic features of IEnumerable.
  * STUDENT:  Steven Christopher
- * DATE:     MAR 02 2019
+ * DATE:     MAR 05 2019
 */
 
-// STYLE MODIFICATIONS:
+// STYLE MODIFICATIONS: None.
 
-
-// FUNCTIONAL MODIFICATIONS:
+// FUNCTIONAL MODIFICATIONS: None.
 
 using System;
 using System.Collections.Generic;
@@ -39,6 +39,7 @@ namespace IEnumerable_Example
             // Extension methods can convert IEnumerable<int>
             List<int> list = result.ToList();
             int[] array = result.ToArray();
+            
             // TODO Exit prompt.
             Console.ReadLine();
             
