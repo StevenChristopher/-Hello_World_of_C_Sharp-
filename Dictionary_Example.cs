@@ -1,18 +1,17 @@
 /* SOURCE:   https://www.dotnetperls.com/dictionary            
  * AUTHOR:   
- * FILENAME: Dictionary Example.cs
- * PURPOSE:           
+ * FILENAME: Dictionary_Example.cs
+ * PURPOSE:  Demonstrate the basic functionality of a Dictionary<T> variable.        
  * STUDENT:  Steven Christopher
  * DATE:     MAR 01 2019
 */
 
 // STYLE MODIFICATIONS:
-// 1) Added a basic console display for the return value.
+// 1) Unique console display messages.
+// 2) Unique dictionary keys and values.
 
 // FUNCTIONAL MODIFICATIONS:
-// 1) Passed integer values into the function.
-// 2) Return and display the functions' return value.
-// 3) Added Main() method and called in return function.
+// 1) Program prompt and exit added.
 
 using System;
 using System.Collections.Generic;
@@ -38,7 +37,6 @@ namespace Dictionary_Example
             Console.WriteLine("\nDictionary Count: " + dictionary.Count);
             Console.Write("\n\n<Press Any Key To Exit>");
             Console.ReadLine();
-        }       
-
+        }
     }
 }
