@@ -1,3 +1,19 @@
+/* SOURCE:   https://www.sanfoundry.com/csharp-program-performs-number-guessing-game/             
+ * AUTHOR:   
+ * FILENAME: Number_Guessing_Game.cs
+ * PURPOSE:  The computer generates a random number between 1 and 100. The user has unlimited
+             attempts. The total amount of guesses it took to get the correct number is displayed.
+ * STUDENT:  Steven Christopher
+ * DATE:     MAR 05 2019
+*/
+
+// STYLE MODIFICATIONS:
+// 1) Unique console display prompts and messaging. 
+
+// FUNCTIONAL MODIFICATIONS:
+// 1) Unique number range.
+// 2) Removed user guess limits.
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
