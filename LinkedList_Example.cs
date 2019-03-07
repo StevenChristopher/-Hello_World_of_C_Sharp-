@@ -1,18 +1,17 @@
 /* SOURCE:   https://www.dotnetperls.com/linkedlist           
  * AUTHOR:   
  * FILENAME: LinkedList_Example.cs
- * PURPOSE:           
+ * PURPOSE:  Demonstrate the basic functionality of a LinkedList<T>.        
  * STUDENT:  Steven Christopher
  * DATE:     MAR 01 2019
 */
 
 // STYLE MODIFICATIONS:
-// 1) Added a basic console display for the return value.
+// 1) Added unique console display messaging.
+// 2) Put unique values into the list.
 
 // FUNCTIONAL MODIFICATIONS:
-// 1) Passed integer values into the function.
-// 2) Return and display the functions' return value.
-// 3) Added Main() method and called in return function.
+// 1) Added a program exit.
 
 using System;
 using System.Collections.Generic;
@@ -32,7 +31,8 @@ namespace LinkedList_Example
             groceries.AddLast("Cheese");
             groceries.AddFirst("Milk");
             groceries.AddLast("Eggs");
-
+            
+            // A foreach loop seems ideal for outputting values from this data structure.
             foreach (var item in groceries)
             {
                 Console.WriteLine(item);
