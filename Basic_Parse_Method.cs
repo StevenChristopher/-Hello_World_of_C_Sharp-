@@ -1,15 +1,17 @@
 /* SOURCE:   https://www.dotnetperls.com/parse          
  * AUTHOR:   
  * FILENAME: Basic_Parse_Method
- * PURPOSE:  
+ * PURPOSE:  Demonstrate the basic functionality of the Parse() method and
+             how it can take a string and convert it, or, parse it to an integer.
  * STUDENT:  Steven Christopher
- * DATE:     MAR 02 2019
+ * DATE:     MAR 05 2019
 */
 
 // STYLE MODIFICATIONS:
+// 1) Used my favorite number - 254.
+// 2) Added console display messaging.
 
-
-// FUNCTIONAL MODIFICATIONS:
+// FUNCTIONAL MODIFICATIONS: None.
 
 using System;
 using System.Collections.Generic;
